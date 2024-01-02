@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+body {
+  font-size: 'Orbitron', sans-serif;
+  background-image: url(imagenes/rock_fondo_2-transformed.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-size: 40px;
+  width: 50%;
+
+
+
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(228, 180, 25);
+  margin-left: 15px;
+  border: 2px solid transparent;
+  animation: glow 1.0s infinite alternate;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3em;
+  background-image: linear-gradient(45deg, #f06, #fc6);
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: luminosoAnim 3s linear infinite;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+  }
+
+  to {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+  }
+}
+
+@keyframes luminosoAnim {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #696464;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos para el contenido del footer */
+.footer-contenido {
+  max-width: 800px;
+  margin: 0 auto;
+}
